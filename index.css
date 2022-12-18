@@ -49,6 +49,10 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+nav {
+    display: none;
+}
+
 
 h1 {
     font-size: 2em;
@@ -88,6 +92,7 @@ h3 {
     height: 80vh;
     margin-bottom: 40px;
     margin-left: 0%;
+    margin-top: 100px;
 
  
 }
@@ -191,13 +196,15 @@ margin: 0;
    margin-top: 20%;
 }
 
-.project-box p {
+.project-box p{
     justify-content: left;
     margin-left: 150px;
 }
 
+
 .project-box h3 ,
-.project-box p {
+.project-box p,
+.project-box a {
     margin-left: 300px;
 }
 
@@ -268,7 +275,8 @@ h1,h2,h3 {
 }
 
 .project-box h3, 
-.project-box p{
+.project-box p,
+.project-box a{
     margin-left: 200px;
 }
 
@@ -309,7 +317,8 @@ h1,h2,h3 {
     }
 
     .project-box h3, 
-    .project-box p{
+    .project-box p,
+    .project-box a{
     margin-left: 100px;
 }
 }
@@ -341,7 +350,8 @@ h1,h2,h3 {
 }
 
     .project-box h3, 
-    .project-box p{
+    .project-box p,
+    .project-box a{
     margin-left: 20px;
 }
 
